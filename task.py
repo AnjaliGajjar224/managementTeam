@@ -15,3 +15,15 @@
     # percentage of class attended
     # Is student is allowed to sit in exam or not.
 """
+
+quantity = int(input("Enter the quantity: "))
+
+cost = quantity * 100
+
+if cost >= 1000:
+    discount = (cost * 10)/100
+    total_cost = cost - discount
+    print("Total cost: ", total_cost)
+
+else:
+    print("Total cost: ", cost)
