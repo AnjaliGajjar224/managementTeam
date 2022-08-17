@@ -144,17 +144,19 @@ output:
 153
 """
 
-n = int(input("Enter number: " ))
+start = int(input("Enter Starting range: "))
+end = int(input("Enter Ending range: "))
 
-temp = n
-sum = 0
+for num in range(start,end+1):
+    sum = 0
+    temp = num
+    while temp > 0:
+        digit = temp % 10
+        sum += digit ** len(str(num))
+        temp //= 10
+    if num == sum:
+        print(num,end=" ")
 
-while temp > 0:
-    digit = temp % 10
-    sum += digit**3                   # sum = sum + digit ** 3 
-    temp //= 10                       # temp = temp // 10
-
-if n == sum:
-    print(n,"is Armstrong")
-else:
-    print(n,"is not Armstrong")
+"""
+Take a  starting range and ending range from the user and find all the palindrome numbers between them
+"""
