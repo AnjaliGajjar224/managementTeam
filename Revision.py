@@ -1,8 +1,7 @@
-from tkinter import N
 
 
-print("Hello World")
-print('Hello World')
+# print("Hello World")
+# print('Hello World')
 
 # Single Line Comment
 """
@@ -26,8 +25,8 @@ Escaping Characters/Sequences
 \r ---> carriage return
 \
 """
-print("How are\b you?")
-print("Python is a fun \rJAVA")
+# print("How are\b you?")
+# print("Python is a fun \rJAVA")
 """
 Numeric Data types:
 
@@ -38,24 +37,24 @@ Numeric Data types:
 Python is an implicit bind language
 """
 
-num1 = 15
-num2 = 12.13
-num3 = 2+5j
+# num1 = 15
+# num2 = 12.13
+# num3 = 2+5j
 
-print(type(num1))
+# print(type(num1))
 
-print("Number 1 is: ",num1)
+# print("Number 1 is: ",num1)
 
 """
 Arithmetic Operators
 +, - , * ,/ , // , ** , %
 """
-print(15/2)
-print(15//2)
-print(15%2)
-print(15**2)         # 15 * 15 = 225
+# print(15/2)
+# print(15//2)
+# print(15%2)
+# print(15**2)         # 15 * 15 = 225
 
-print(pow(5,5))
+# print(pow(5,5))
 
 """
 Comparison Operators
@@ -74,11 +73,11 @@ Membership Operators
 in , not in 
 """
 
-print('b' in 'banana')
-print('k' in 'banana')
+# print('b' in 'banana')
+# print('k' in 'banana')
 
-print('b' not in 'banana')
-print('k' not in 'banana')
+# print('b' not in 'banana')
+# print('k' not in 'banana')
 
 """
 Conditional Statements
@@ -144,19 +143,136 @@ output:
 153
 """
 
-start = int(input("Enter Starting range: "))
-end = int(input("Enter Ending range: "))
+# start = int(input("Enter Starting range: "))
+# end = int(input("Enter Ending range: "))
 
-for num in range(start,end+1):
-    sum = 0
-    temp = num
-    while temp > 0:
-        digit = temp % 10
-        sum += digit ** len(str(num))
-        temp //= 10
-    if num == sum:
-        print(num,end=" ")
+# for num in range(start,end+1):
+#     sum = 0
+#     temp = num
+#     while temp > 0:
+#         digit = temp % 10
+#         sum += digit ** len(str(num))
+#         temp //= 10
+#     if num == sum:
+#         print(num,end=" ")
 
 """
-Take a  starting range and ending range from the user and find all the palindrome numbers between them
+Take a  starting range and ending range from the user and find all the palindrome numbers between them.
+
+e.g. 121 , 1221 , 12321...
 """
+
+# start = int(input("Enter Starting range: "))
+# end = int(input("Enter Ending range: "))
+
+# for num in range(start,end+1):
+#     rev = 0
+#     temp = num
+#     while temp > 0:
+#         digit = temp % 10
+#         rev = rev * 10 + digit
+#         temp //= 10
+#     if num == rev:
+#         print(num,end=" ")
+
+"""
+H.W.
+------------------------------
+Take a  starting range and ending range from the user and find all the prime numbers between them.
+"""
+
+"""
+5 4 3 2 1
+4 3 2 1 
+3 2 1
+2 1 
+1
+
+5 
+5 4 
+5 4 3
+5 4 3 2
+5 4 3 2 1
+
+      *
+     ***
+    *****
+   *******
+
+   *
+  ***
+ *****
+ *****
+  ***
+   *
+
+"""
+
+"""
+while..else
+for...else
+# """
+# i = 1
+
+# while i <= 5:
+#     print(i)
+#     i += 1
+# else:
+#     print("else")
+
+# for i in range(1,10):
+#     print(i)
+# else:
+#     print("else")
+"""
+Control Statements:
+------------------
+1. break
+    break the loop
+
+2. continue
+    continue the loop without executing the statements
+
+3. pass
+    pass the control to the next statement
+"""
+
+# for i in range(1,11):
+#     if i == 5 :
+#         break
+#     print(i)
+
+# for i in range(1,11):
+#     if i == 5 :
+#         continue
+#     print(i)
+
+# for i in range(1,11):
+#     pass
+
+
+# for i in range(1,11):
+#     if i == 5 :
+#         break
+#     print(i)
+# else:
+#     print("else")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
