@@ -73,3 +73,209 @@ n = 10
 sum of even numbers = 2+4+6+8+10 = 30
 Odd numbers: 1 3 5 7 9 
 """
+
+# n = int(input("Enter a number : "))
+
+# i = 1
+# sum = 0
+# while i <= n:
+#     if i%2 == 0:
+#         print(i,end="+")
+#         sum += i
+#     i += 1
+
+# print("=",sum)
+
+# i = 1
+# print("Odd numbers: ")
+# while i <= n:
+#     if i%2 == 1:
+#         print(i,end=" ")
+#     i += 1
+
+"""
+Take n from the user and multiply all the numbers 
+
+e.g. n = 5
+        1*2*3*4*5 = 120
+"""
+"""
+Nested While loop:
+-------------------
+
+Syntax:
+
+initialization
+
+while condition:
+    statements
+    intialization
+    while condition:
+        statements
+        increment/decrement
+    increment/decrement
+"""
+
+# i = 1
+
+# while i <= 5:
+#     j = 1
+#     while j <= 10:
+#         print(i,"x",j,"=",i*j)
+#         j += 1
+#     print()
+#     i += 1
+
+"""
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+"""
+
+# i = 1
+
+# while i <= 5:
+#     j = 1
+#     while j <= 5:
+#         print("*",end=" ")
+#         j += 1
+#     print()
+#     i += 1
+
+"""
+1 1 1 1 1 
+2 2 2 2 2
+3 3 3 3 3
+4 4 4 4 4
+5 5 5 5 5
+"""
+# i = 1
+
+# while i <= 5:
+#     j = 1
+#     while j <= 5:
+#         print(i,end=" ")
+#         j += 1
+#     print()
+#     i += 1
+
+"""
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+"""
+
+# i = 1
+# while i <= 5:
+#     j = 1
+#     while j <= 5:
+#         print(j,end=" ")
+#         j += 1
+#     print()
+#     i += 1
+
+"""
+1 2 3 4 5
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+21 22 23 24 25
+"""
+# i = 1
+# num = 1
+# while i <= 5:
+#     j = 1
+#     while j <= 5:
+#         print(num,end=" ")
+#         num += 1
+#         j += 1
+#     print()
+#     i += 1
+
+"""
+0 1 0 1 0
+0 1 0 1 0
+0 1 0 1 0
+0 1 0 1 0
+0 1 0 1 0
+"""
+
+# i = 1
+
+# while i <= 5:
+#     j = 1
+#     while j <= 5:
+#         if j % 2 == 0:
+#             print("1",end=" ")
+#         else:
+#             print("0",end=" ")
+#         j += 1
+#     print()
+#     i += 1
+
+"""
+0 0 0 0 0
+1 1 1 1 1
+0 0 0 0 0
+1 1 1 1 1
+0 0 0 0 0
+"""
+# i = 1
+
+# while i <= 5:
+#     j = 1
+#     while j <= 5:
+#         if i % 2 == 0:
+#             print("1",end=" ")
+#         else:
+#             print("0",end=" ")
+#         j += 1
+#     print()
+#     i += 1
+"""
+A A A A A
+B B B B B
+C C C C C
+D D D D D
+E E E E E
+"""
+# i = 0
+# ch = 65
+# while i < 5:
+#     j = 1
+#     while j <= 5:
+#         print(chr(ch+i),end=" ")
+#         j += 1
+#     print()
+#     i += 1
+
+"""
+A B C D E
+F G H I J
+K L M N O
+P Q R S T
+U V W X Y
+"""
+
+# i = 1
+# ch = 65
+# while i <= 5:
+#     j = 1
+#     while j <= 5:
+#         print(chr(ch),end=" ")
+#         ch += 1
+#         j += 1
+#     print()
+#     i += 1
+
+"""
+A B C D E
+A B C D E
+A B C D E
+A B C D E
+A B C D E
+"""
