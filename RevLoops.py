@@ -99,6 +99,22 @@ Take n from the user and multiply all the numbers
 e.g. n = 5
         1*2*3*4*5 = 120
 """
+
+# n = int(input("Enter a number : "))
+
+# i = 1
+# mul = 1
+# while i <= n:
+#     if i < n:
+#         print(i,end=" x ")
+#         mul *= i
+#     else:
+#         print(i,end="=")
+#         mul *= i
+#     i += 1
+
+# print(mul)
+
 """
 Nested While loop:
 -------------------
@@ -278,4 +294,58 @@ A B C D E
 A B C D E
 A B C D E
 A B C D E
+"""
+
+"""
+*
+* *
+* * *
+* * * *
+* * * * *
+"""
+
+"""
+5
+5 4
+5 4 3
+5 4 3 2
+5 4 3 2 1
+"""
+
+# i = 5
+
+# while i >= 1:
+#     j = 5
+
+#     while j >= i:
+#         print(j,end = " ")
+#         j -= 1
+
+#     print()
+#     i -= 1
+
+"""
+1 2 3 4 5
+2 3 4 5
+3 4 5
+4 5
+5
+"""
+i = 1
+
+while i <= 5:
+    j = i
+
+    while j <= 5:
+        print(j,end = " ")
+        j += 1
+    print()
+    i += 1        
+
+"""
+5 4 3 2 1
+4 3 2 1
+3 2 1
+2 1
+1
 """
