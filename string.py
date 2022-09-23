@@ -45,8 +45,17 @@ l       4                           -1
 
 """
 Take a string from the user and find length of the string . Take index from the user and print character on that specific index. 
-"""
+# """
 
+# myStr = input("Enter your String: ")
+
+# print(myStr)
+
+# print("Length of the String is: ",len(myStr))
+
+# index = int(input("Enter your index: "))
+
+# print("Character at index",index,"is:",myStr[index])
 """
 Slicing of the String:-
 ---------------------------
@@ -259,21 +268,57 @@ s = "Python iS a ProgramMing LAnguage"
 # print(s1.join(l))
 
 
-print(s.lower())
-print(s.upper())
-print(s.title())
+# print(s.lower())
+# print(s.upper())
+# print(s.title())
 
-print("Hello".ljust(10))
-print("Hello".ljust(10,"*"))
+# print("Hello".ljust(10))
+# print("Hello".ljust(10,"*"))
 
-print("Hello".rjust(10))
-print("Hello".rjust(10,"-"))
+# print("Hello".rjust(10))
+# print("Hello".rjust(10,"-"))
 
-print("       Hello".lstrip())
-print("$$$$$$$$Hello".lstrip("$"))
+# print("       Hello".lstrip())
+# print("$$$$$$$$Hello".lstrip("$"))
 
-print("    Hello      ".rstrip())
-print("    Hello$$$$".rstrip("$"))
+# print("    Hello      ".rstrip())
+# print("    Hello$$$$".rstrip("$"))
 
-print("        Hello      ".strip())
-print("$$$$$$$$HELLO$$$$$$$$$$$".strip("$"))
+# print("        Hello      ".strip())
+# print("$$$$$$$$HELLO$$$$$$$$$$$".strip("$"))\
+
+# s = "Royal_Technosoft_Pvt_Ltd"
+
+# print(s.partition("_"))
+
+# print(s.rpartition("_"))
+
+# print(s.replace("_"," "))
+
+# print(s.split("_",2))
+
+# print(s.rsplit("_",2))
+
+# print(s.swapcase())
+
+# s1 = "Hello\nHye\nBye"
+
+# print(s1.splitlines())
+
+# text = "Hello"
+
+# print(text.zfill(10))               # 10 - 5 = 5 
+
+# date = "1-10-2022"
+
+# print(date.zfill(10))
+
+"""
+1. Take a Full name from the user and print abbre. of them.
+
+e.g. 
+
+Input: Anjali Rakesh Gajjar
+
+Output: A.R.Gajjar
+"""
