@@ -156,3 +156,124 @@ Immutable means It doesn't change the original string by its methods.
 
 # print(s1)
 # print(s1.expandtabs(20))
+
+
+# a = 10
+# b = 5
+
+# print(a,"+",b,"=",a+b)
+
+# print(f"{a} + {b} = {a+b}")
+
+s = "Python iS a ProgramMing LAnguage"
+
+# print("Royal Technosoft Pvt. Ltd. Since {} to {}".format(2015,2022))
+
+# print("Royal Technosoft Pvt. Ltd. Since {y1} to {y2}".format(y2 = 2050 , y1 = 2010))
+
+# print(s.find("a"))        # return index of first occurence
+# print(s.rfind("a"))       # right to left <---
+
+# print(s.find("a",11))     # start = 11 to length
+
+# print(s.index("a"))       # return index of first occurence
+# print(s.rindex("a"))
+
+# print(s.index("a",11))
+
+# print(s.find("b"))        # return -1 if not found
+# print(s.index("b"))       # return error if not found
+
+# print("ABCD123".isalnum())      # if string contains alphabets or numeric values then it returns true
+# print("ABC".isalnum())
+# print("1234".isalnum())
+# print("123@$ABC".isalnum())
+
+# print("ABCD".isalpha())
+# print("1234ABCD".isalpha())
+
+# s5 = "2022"
+# print(s5.isdecimal())   # considers strictly plain digits from 0 to 9 only, nothing else
+# print(s5.isdigit())     # considers subscripts, superscripts and circled numbers also as numbers
+# print(s5.isnumeric())   # considers vulgar fractions, roman numerals, numbers from other languages
+
+# s6 = "2⁸"
+# print(s6)
+# print(s6.isdecimal())
+# print(s6.isdigit())
+# print(s6.isnumeric())
+
+# s7 = "②⓪②②"
+# print(s7)
+# print(s7.isdecimal())
+# print(s7.isdigit())
+# print(s7.isnumeric())
+
+
+# s8 = "¼"
+# print(s8)
+# print(s8.isdecimal())
+# print(s8.isdigit())
+# print(s8.isnumeric())
+
+
+# s9 = "二千二十二"
+# print(s9)
+# print(s9.isdecimal())
+# print(s9.isdigit())
+# print(s9.isnumeric())
+
+
+# s10 = "IV"
+# s11 = "Ⅵ"
+# print(s10)
+# print(s10.isnumeric())
+# print(s11)
+# print(s11.isnumeric())
+
+# print("ABCD123".isascii())
+
+# print("num1".isidentifier())
+# print("1Num".isidentifier())
+# print("num 1".isidentifier())
+
+# print("abcd".islower())
+
+# print("ABCD".isupper())
+
+# print("Python Is A Fun.".istitle())
+
+# print("Are you #1?".isprintable())
+# print("Are you \n#1?".isprintable())
+
+# print("       Hello      ".isspace())
+# print("     ".isspace())
+# print("\t".isspace())
+# print("\n".isspace())
+
+# s1 = "Hello"
+# s2 = "Bye" 
+# l = ["Royal","Hey","Why"]
+
+# print(s1.join(s2))
+# print(s1.join(l))
+
+
+print(s.lower())
+print(s.upper())
+print(s.title())
+
+print("Hello".ljust(10))
+print("Hello".ljust(10,"*"))
+
+print("Hello".rjust(10))
+print("Hello".rjust(10,"-"))
+
+print("       Hello".lstrip())
+print("$$$$$$$$Hello".lstrip("$"))
+
+print("    Hello      ".rstrip())
+print("    Hello$$$$".rstrip("$"))
+
+print("        Hello      ".strip())
+print("$$$$$$$$HELLO$$$$$$$$$$$".strip("$"))
