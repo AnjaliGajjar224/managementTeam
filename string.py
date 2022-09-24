@@ -63,7 +63,7 @@ Slicing of the String:-
 2. [start:]
 3. [:end]
 4. [:]
-5. [start:end:step0]
+5. [start:end:step]
 """
 s = "Royal_Technosoft_Pvt_Ltd."        
 
@@ -321,4 +321,47 @@ e.g.
 Input: Anjali Rakesh Gajjar
 
 Output: A.R.Gajjar
+# """
+# name = input("Enter your full name(firstname+middlename+surname):")
+
+
+# part1 = name[0]               # first character of first name
+
+# part2 = name[name.index(" ") + 1]             # first character of middle name
+
+# part = name[name.index(" ",name.index(" ")+1)+1]
+
+# part3 = name[name.rindex(" ")+1:]              # print surname2
+
+
+# # print(part1,".",part2,".",part3)
+
+# # print(part1+"."+part2+"."+part3)
+
+# print(part1+"."+part2+"."+part+"."+part3)
+
 """
+2. Take string from the user and count number of vowels, consonents and white spaces in the string.
+
+
+e.g. Python Programming
+
+
+Output: 
+
+vowels - 4
+consonents - 13
+white space - 1
+"""
+
+# myStr = input("Enter String: ")
+
+# white_space = myStr.count(" ")
+
+# vowels = myStr.count("a") + myStr.count("e") + myStr.count("i") + myStr.count("o") + myStr.count("u")
+
+# consonents = len(myStr) - (vowels + white_space)
+
+# print(f"vowels: {vowels}")
+# print(f"white spaces: {white_space}")
+# print(f"consonents: {consonents}")
